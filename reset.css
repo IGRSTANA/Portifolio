@@ -1,0 +1,64 @@
+/* CSS Reset */
+
+/* Define a box-sizing global para garantir consistência no cálculo do tamanho dos elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove as margens e o preenchimento padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+figure,
+figcaption,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove a decoração de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* Remove a lista de estilos padrão */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Define uma fonte base consistente */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Define um tamanho de fonte base e ajusta o tamanho para diferentes elementos */
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+/* Adicione outros estilos ou ajustes necessários para atender às necessidades do seu projeto */
